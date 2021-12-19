@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/burger.css"
+	],
+	"sourcesContent": [
+		"*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n.mobile-menu{\r\n    // display: none;\r\n    position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n}\r\n    .burger-close{\r\n        width: 32px;\r\n        height: 32px;\r\n        background-color:transparent;\r\n        border: none;\r\n    }\r\n    // .burger-close::before,\r\n    // .burger-close::after{\r\n    //     content: \"\";\r\n    //     position: absolute;\r\n    //     top: 12px;\r\n    //     right: 12px;\r\n    //     width: 18px;\r\n    //     height: 2px;\r\n    //     background-color: #EC6F5D; \r\n    // }\r\n    // .burger-close::before{\r\n    //     content: \"\";\r\n    //     transform: rotate(45deg);\r\n    // }\r\n    // .burger-close::after{\r\n    //     content: \"\";\r\n    //     transform: rotate(-45deg);\r\n    // }\r\n    // .burger-close:hover,\r\n    // .burger-close:active{\r\n    //     outline: 2px solid #EC6F5D;\r\n    // }\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;AACD,AAAA,YAAY,CAAA;EAER,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,CAAC;CACV;;;AACG,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAC,WAAW;EAC5B,MAAM,EAAE,IAAI;CACf"
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="./JS/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/burger.css">
+    
+    <title>HLegals</title>
+  </head>
+  <body>
+    <div class="wrapper">
+   
+      <section class="promo">
+          <div class="promo-page">
+              <header class="header">
+                  <div class="header-content">
+                      <div class="inform">
+                          <div class="lang point">
+                              <a href="" class="ua active">ук</a>
+                              <a href="" class="ru">ру</a>
+                              <a href="" class="en">en</a>
+                          </div>
+                          <address class="address point" style="color: white;">Одеса, Адміральський пр.,3</address>
+                          <a href="tel:+38(050)3901591" class="tel point">+38 (050) 390 15 91</a>
+                          <a href="" class="facebook"></a>
+                      </div>
+                  </div>
+                  <div class="logo">
+                      <a href="./index.html">
+                          <img src="./img/logo-full.svg" height="62" width="155" alt="hlegals" class="logo-img" id="logo-img">
+                      </a>
+                      <button class="burger" id="menu-open"></button>
+                  </div>
+                  <div class="menu">
+                      <a href="./about/page_about.html" class="links">про нас</a>
+                      <a href="./service/service.html" class="links">послуги</a>
+                      <a href="./team/team.html" class="links" >команда</a>
+                      <a href="./publication/publicatiom.html" class="links" >публікації</a>
+                      <a href="./contact/contact.html" class="links">контакти</a>
+                  </div>
+                  <div class=" mobile-menu" id="menu">
+                      <div class="logo-mini">
+                          <a href="./index.html"><img src="./img/logo-mini.svg" alt="logo" width="32px" height="31px"></a>
+                      </div>
+                      <button class="burger-close" id="menu-close"></button>
+                      <div class="link-container">
+                          <div class="container">
+                              <a href="../about/index.html" class="links" style="color:white">про нас</a>
+                          </div>
+                          <div class="container">
+                              <a href="../services/index.html" class="links">послуги</a>
+                          </div>
+                          <div class="container">
+                              <a href="../team/index.html" class="links">команда</a>
+                          </div>
+                          <div class="container">
+                              <a href="../publications/index.html" class="links">публікації</a>
+                          </div>
+                          <div class="container">
+                              <a href="../contacts/index.html" class="links">контакти</a>
+                          </div>
+                      </div>
+                  </div>
+              </header>
+              <div class="p-bg promo-content">
+                  <h1 class="title-text">Системний адміністратор правових рішень</h1>
+                  <div class="gradient" id="gradient"></div>
+              </div>
+              <button class="slider" id="slider"></button>
+          </div>
+      </section>
+
+      <div class="bg-information">
+        <section class="services"> 
+                <div class="services-content">
+                    <div class="labels">
+                        <h2 class="label active-label" id="consistent">Послідовні</h2>        
+                        <h2 class="label" id="customer-oriented">Клієнтоорієнтовані</h2>
+                        <h2 class="label" id="innovative">Інноваційні</h2>    
+                        <h2 class="label" id="business-oriented">Бізнес-орієнтовані юристи</h2>
+                    </div>
+                    <div class="divider">
+                        <div class="divider-small"></div>
+                    </div>
+                    <div class="explanation">
+                        <div class="consistent" data-content="consistent">
+                            <h3 class="title" style="color: white;">Перевертаємо уявлення про юридичні послуги</h3>
+                            <p class="text" style="color: white;">
+                                Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                            </p>
+                        </div>
+                        <div class="customer-oriented hidden" data-content="customer-oriented">
+                        <h3 class="title" style="color: white;"> Перевертаємо уявлення про юридичні послуги</h3>
+                        <p class="text" style="color: white;">
+                            Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                        </p>
+                    </div>
+                        <div class="innovative hidden" data-content="innovative">
+                            <h3 class="title" style="color: white;">Перевертаємо уявлення про юридичні послуги</h3>
+                            <p class="text" style="color: white;">
+                                Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                            </p>
+                        </div>
+                        <div class="business-oriented hidden" data-content="business-oriented">
+                            <h3 class="title" style="color: white;">Перевертаємо уявлення про юридичні послуги</h3>
+                            <p class="text"style="color: white;">
+                                Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і досягають прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського права в Україні.
+                            </p>
+                        </div>
+                        <div class="sliders">
+                            <button class="mini-slider mini-slider-active"></button>
+                            <button class="mini-slider"></button>
+                            <button class="mini-slider"></button>
+                            <button class="mini-slider"></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="better">
+            <div class="better-content">
+                <div class="heading">
+                    <a href="./service/service.html" class="link vector">Послуги</a>
+                    <h2 class="section-title tt-bold">Що ми вміємо робити краще за інших?</h2>
+                </div>
+                <div class="servic-content">
+                    <div class="servic-content_item">
+                        <a href="./service/service.member.html">
+                        <h3 class="card-title shoping bg-img">IT та електронна комерція</h3></a>
+                        <p class="card-text">
+                            Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста. 
+                        </p>
+                    </div>
+                    <div class="servic-content_item">
+                        <a href="./service/service.member.html">
+                        <h3 class="card-title bag bg-img">Комплексний щоденний юридичний супровід</h3></a>
+                        <p class="card-text">
+                            До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.
+                        </p>
+                    </div>
+                    <div class="servic-content_item">
+                        <a href="./service/service.member.html">
+                        <h3 class="card-title crowdfunding bg-img">Структуризація корпоративних відносин</h3></a>
+                        <p class="card-text">
+                            Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої компанії. 
+                        </p>
+                    </div>
+                    <div class="servic-content_item">
+                        <a href="./service/service.member.html">
+                        <h3 class="card-title hand bg-img">Побудовa договірних відносин</h3></a>
+                        <p class="card-text">
+                            Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи замість очікування статусу update.
+                        </p>
+                    </div>
+                    <div class="servic-content_item">
+                        <a href="./service/service.member.html">
+                        <h3 class="card-title safety bg-img">Захист бізнесу, інтелектуальної власності</h3></a>
+                        <p class="card-text">
+                            А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.
+                        </p>
+                    </div>
+                    <div class="servic-content_item">
+                        <a href="./service/service.member.html">
+                        <h3 class="card-title lawyer bg-img">Судове представництво</h3></a>
+                        <p class="card-text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        <section class="team"> 
+            <div class="team-content">
+                <div class="team-heading">
+                    <a href="./team/team.member.html" class="link-team team-vector">Команда</a>
+                    <h2 class="team-title">
+                        Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                    </h2>
+                </div>
+                <div class="kac-slide">
+                    <img src="./img/oleksandr-kac.svg" width="60px" height="60px" alt="oleksandr kac" class="member-photo">
+                    <div class="team-inform">
+                        <p class="name">Олександр Кац</p>
+                        <p class="profession">Керуючий партнер</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sliders-team">
+                <button class="team-mini-slider team-mini-slider"></button>
+                <button class="team-mini-slider team-mini-slider"></button>
+                <button class="team-mini-slider"></button>
+            </div>
+        </section>
+
+        
+        <section class="cases">
+            <div class="flex-container1">
+                <div class="united-card">
+                    <div class="card-label">
+                        <h2 class="cases-label">Успішні кейси</h2>
+                    </div>
+                    <div class="cases-card">
+                        <p class="cases-text text-hillel">
+                            Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                        </p>
+                    </div>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text  text-wannabiz">
+                        Підготовка комплексного юридичного висновку для європейського банку
+                    </p>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text  text-tapgerine">
+                        Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                    </p>
+                </div>
+            </div>
+            <div class="flex-container2">
+                <div class="cases-card">
+                    <p class="cases-text  text-3dlook">
+                        Представництво інтересів великого зернотрейдера в податковому спорі
+                    </p>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text text-adtelligent">
+                        Оскарження податкових повідомлень-рішень ДФС
+                    </p>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text text-clikky">
+                        Супровід проекту з кредитування агротрейдерів мальтійським банком
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="partners"> 
+            <h2 class="trust-partners">Вже довіряють нам</h2>
+            <div class="firms">
+                    <img src="./img/hillel-logo.svg" class="firm">
+                    <img src="./img/wannabiz-logo.svg" class="firm">
+                    <img src="./img/tapgerine-logo.svg" class="firm">
+                    <img src="./img/3dlook-logo.svg" class="firm">
+                    <img src="./img/orangear-logo.svg" class="firm">
+                    <img src="./img/adtelligent-logo.svg" class="firm">
+                    <img src="./img/clickky-logo.svg" class="firm">
+                    <img src="./img/ecolease-logo.svg" class="firm">
+                    <img src="./img/infratek-logo.svg" class="firm">
+                    <img src="./img/citypark.svg" class="firm">
+                    <img src="./img/artprint-logo.svg" class="firm">
+                    <img src="./img/ultimategard-logo.svg" class="firm">
+            </div>
+        </section>
+        <section class="publication"> 
+            <div class="publication-content">
+                <div class="publicaton-heading">
+                    <a href="./publication/publication.member.html" class="publication-link publication-vector">Публікації</a>
+                    <h2 class="publication-title">Нам є що розповісти</h2>
+                </div>
+                <div class="publication-cards">
+                
+                    <div class="publication-container">
+                         <div class="publication-card">
+                            <h3 class="public-card-title">
+                            Валютний контроль помер, хай живе валютний контроль!
+                            </h3>
+                            <time datetime="2020-06-14" class="publication-card-date divider-public">14 червня</time>
+                            <p class="publication-card-text">
+                                Експерти проводять конференції, круглі столи та іншого штибу заходи на тему «лібералізація валютного законодавства». Юристи-експерти-новелісти стирають пальці об «ctrl+c/ctrl+v».
+                            </p>
+                        </div>
+                        <div class="publication-card">
+                            <h3 class="publication-card-title publication-img milenial">
+                                Заповіт міленіала
+                            </h3>
+                            <time datetime="2020-08-19" class="publication-card-date divider-public">19 серпня</time>
+                            <p class="publication-card-text">
+                                Що і як передаватимуть у спадщину сучасні влогери, опініон лідери і криптомільйонери Типовий спадок українського покоління Х виглядає так: квартира у…
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="publication-container">
+                        <div class="publication-card">
+                            <h3 class="publication-card-title publication-img equity">
+                                Equity associate
+                            </h3>
+                            <time datetime="2020-04-22" class="publication-card-date divider-public">22 квітня</time>
+                            <p class="publication-card-text">
+                                На проектах я джун. При цьому я співвласник юридичної фірми. Як це відбулося. Перед вступом батьки мені казали, що якщо буду…
+                            </p>
+                        </div>
+                        <div class="publication-card">
+                            <h3 class="publication-card-title publication-img statue"></h3>
+                            <time datetime="" class="publication-card-date divider-public"></time>
+                            <p class="publication-card-text"></p>
+                        </div>
+                    </div>
+                
+                    <div class="publication-container">
+                        <div class="publication-card">
+                            <h3 class="publication-card-title publication-img gdpr">
+                                Штраф для «Корпорації добра»: що буде з Google та іншими за порушення GDPR
+                            </h3>
+                            <time datetime="2020-09-29" class="publication-card-date divider-public">29 вересня</time>
+                            <p class="publication-card-text">
+                                І чому стягнення у 50 млн євро може стати доленосним прецедентом За матеріалами Mind.ua 21 січня Національна комісія із захисту даних.
+                            </p>
+                        </div>
+                        <div class="publication-card">
+                            <h3 class="publication-card-title publication-img music"></h3>
+                            <time datetime="" class="publication-card-date divider-public"></time>
+                            <p class="publication-card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="public-shade"></div> 
+                <div class="btn-center">
+                    <button class="more-publication">Ще публікації</button>
+                </div>
+            </div>  
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-contacts">
+                    <div class="address-container">
+                        <address class="address-footer point-gray">Одеса, Адміральський пр., 3</address>
+                        <a href="" class="address-link">Подивитися на мапі</a>
+                    </div>
+                    <div class="footer-inform">
+                        <a href="" class="footer-facebook point-gray"></a>
+                        <a href="tel:+38(050)3901591" class="tel-footer point-gray">+38 (050) 390 15 91</a>
+                        <a href="mailto:contact@hlegals.net" class="mail">contact@hlegals.net</a>
+                    </div>
+                </div>
+                <div class="hlegals-about">
+                    <p class="hlegals-about-text">
+                        © 2021 ТОВ Юридична компанія «HLEGALS»
+                    </p>
+                </div>
+            </div>
+        </footer>
+</div>
+
+  </body>
+</html>

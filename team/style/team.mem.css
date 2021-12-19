@@ -1,0 +1,693 @@
+@media (min-width: 320px) {
+    .slider-none, .gradient-none {
+      display: none;
+    }
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: #ffffff;
+    }
+    .mobile-menu .logo-mini {
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+    }
+    .show-menu {
+      display: block;
+    }
+    .link-container {
+      margin-top: 15px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      height: 54px;
+      background: #F5F5FA;
+      margin-bottom: 1px;
+    }
+    .container-active {
+      background: #EDEDF7;
+    }
+    .container-active .links:hover, .container-active .links:active {
+      color: #F0145A;
+    }
+    .links {
+      text-decoration: none;
+      color: #24A3FF;
+      font-size: 24px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .links:hover, .links:active {
+      color: #F0145A;
+    }
+    .burger-close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      margin-left: 338px;
+      width: 32px;
+      height: 32px;
+      background-color: transparent;
+      border: none;
+    }
+    .burger-close::before,
+    .burger-close::after {
+      content: "";
+      position: absolute;
+      top: 14px;
+      right: 7px;
+      width: 18px;
+      height: 2px;
+      background-color: #EC6F5D;
+    }
+    .burger-close::before {
+      content: "";
+      transform: rotate(45deg);
+    }
+    .burger-close::after {
+      content: "";
+      transform: rotate(-45deg);
+    }
+    .burger-close:hover, .burger-close-active {
+      background: #EDEDF7;
+      border-radius: 12px;
+    }
+  }
+  
+  @media (min-width: 320px) {
+    .footer {
+      background: #F5F5FA;
+      border-radius: 12px 12px 0px 0px;
+      width: 100%;
+    }
+    .footer-content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 23px;
+      padding-bottom: 118px;
+      position: relative;
+    }
+    .footer-contacts {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      min-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .address-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .address-footer, .tel-footer {
+      font-size: 16px;
+      font-style: normal;
+      color: #323264;
+      text-align: center;
+      font-weight: bold;
+    }
+    .address-footer {
+      margin-bottom: 10px;
+    }
+    .address-link {
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #24A3FF;
+      text-decoration: none;
+      text-align: center;
+    }
+    .address-link:hover, .mail:hover {
+      color: #F0145A;
+    }
+    .footer-inform {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .footer-facebook {
+      background-image: url(../img/team-mem/facebook-blue.svg);
+      width: 38px;
+      height: 38px;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 20px;
+      position: relative;
+      left: 48%;
+    }
+    .tel-footer {
+      text-decoration: none;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .mail {
+      text-decoration: none;
+      font-size: 16px;
+      color: #24A3FF;
+      text-align: center;
+    }
+    .hlegals-about {
+      display: flex;
+      justify-content: center;
+      margin: 0px 20px 0px 20px;
+    }
+    .hlegals-about-text {
+      font-size: 16px;
+      color: #B3B3BA;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer {
+      position: relative;
+    }
+    .footer-contacts {
+      margin: 0px 0px 0px 100px;
+      justify-content: flex-start;
+    }
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-left: 0;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .address-container {
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .address-footer {
+      text-align: start;
+      margin-right: 47px;
+    }
+    .address-link {
+      vertical-align: bottom;
+      margin-top: 2px;
+    }
+    .footer-inform {
+      flex-direction: row;
+      margin-bottom: 0;
+    }
+    .footer-facebook {
+      position: relative;
+      margin-right: 12px;
+      left: -12px;
+      bottom: 10px;
+      margin-bottom: 0;
+    }
+    .tel-footer {
+      margin-right: 26px;
+      margin-bottom: 0;
+    }
+    .mail {
+      margin-bottom: 0;
+    }
+    .point-gray::after {
+      content: "";
+      background-image: url(../img/team-mem/point-gray.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 6px;
+      height: 6px;
+      padding-right: 10px;
+    }
+    .address-footer::after {
+      content: "";
+      position: relative;
+      left: 33px;
+    }
+    .footer-facebook::after {
+      content: "";
+      position: relative;
+      left: 48px;
+      top: 10px;
+    }
+    .tel-footer::after {
+      content: "";
+      position: relative;
+      left: 15px;
+    }
+    .hlegals-about {
+      margin: 20px 60px 0px 0px;
+    }
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  body {
+    color: #000000;
+    font-family: "TT-Norms";
+  }
+  
+  @media (min-width: 320px) {
+    .wrapper {
+      min-width: 320px;
+      padding-top: 20px;
+      margin: 0px 20px 40px 20px;
+    }
+    .team-members {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+    .header {
+      margin-bottom: 20px;
+    }
+    .header-content .inform {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .tel {
+      position: absolute;
+      font-size: 16px;
+      font-weight: bold;
+      right: 20px;
+    }
+    .menu {
+      display: none;
+    }
+    .address {
+      display: none;
+    }
+    .ua, .ru, .en, .tel {
+      color: #B3B3BA;
+      text-decoration: none;
+    }
+    .ua, .ru, .en {
+      padding: 5px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .active, .ua:hover, .ru:hover, .en:hover {
+      width: 29px;
+      height: 24px;
+      border-radius: 8px;
+      background: #F0145A;
+      color: #ffffff;
+    }
+    .active {
+      background: #F0145A;
+      color: #fff;
+    }
+    .ua:hover, .ru:hover, .en:hover {
+      background: #EDEDF7;
+      color: #B3B3BA;
+    }
+    .logo {
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo .logo-img {
+      height: 31px;
+      width: 208px;
+    }
+    .logo .burger {
+      background-image: url(../img/team-mem/burger-black.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      width: 32px;
+      height: 32px;
+    }
+    .logo .burger:hover {
+      border-radius: 12px;
+      background: #EDEDF7;
+    }
+    .member-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .member-inform {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .member-inform::before {
+      content: "";
+      width: 335px;
+      height: 406px;
+      display: block;
+    }
+    .about-member::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      background: #E6E6F0;
+    }
+    .kac {
+      display: block;
+      width: 335px;
+      height: 406px;
+      border-radius: 12px;
+      background-image: url(../img/team-mem/oleksandrkac.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .member-contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .name {
+      margin-top: 20px;
+      font-family: "  TT-Norms-Bold";
+      font-size: 32px;
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+        .position {
+      margin-top: 14px;
+      font-size: 16px;
+      color: #B3B3BA;
+    }
+    .member-mail, .account-link {
+      margin-top: 11px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #24A3FF;
+    }
+    .about-member {
+      margin-top: 193px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      min-width: 320px;
+    }
+    .biography {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .biography-text, .education-text, .experience-text {
+      font-size: 18px;
+    }
+    .education {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .education-title, .experience-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #323264;
+      margin-bottom: 10px;
+      font-family: "TT-Norms-Bold";
+    }
+    .experience {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacts {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header {
+      margin-bottom: 80px;
+    }
+    .member-content {
+      flex-direction: row;
+      align-items: stretch;
+    }
+    .member-inform {
+      display: flex;
+      flex-direction: row;
+    }
+    .information {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: 341px;
+      bottom: 140px;
+      width: 100%;
+    }
+    .name {
+      margin-top: 0;
+      min-width: 300px;
+    }
+    .member-contacts {
+      flex-direction: row;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .position {
+      margin-top: 0;
+      min-width: 150px;
+      position: relative;
+      right: 75px;
+    }
+    .position::after {
+      display: none;
+    }
+    .member-mail {
+      min-width: 120px;
+      margin-top: 0;
+    }
+    .contacts {
+      flex-direction: row;
+      margin-top: 10px;
+    }
+    .member-mail::after {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+    }
+    .point-member::after {
+      content: "";
+      background-image: url(../img/team-mem/point.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 6px;
+      height: 6px;
+      margin-left: 10px;
+      margin-right: 16px;
+    }
+    .account-link {
+      min-width: 145px;
+      margin-top: 0;
+    }
+    .about-member {
+      margin-top: 134px;
+      margin-left: 40px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    .team-members {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    .logo .logo-img {
+      height: 63px;
+      width: 413px;
+    }
+    .logo .burger {
+      display: none;
+    }
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      padding-top: 50px;
+      margin-bottom: 80px;
+    }
+    .header-content {
+      display: flex;
+      flex-direction: row-reverse;
+      order: 2;
+      position: relative;
+      min-width: 550px;
+    }
+    .inform {
+      display: flex;
+      flex-direction: row;
+    }
+    .facebook {
+      background-image: url(../img/team-mem/facebook-grey.svg);
+      width: 24px;
+      height: 24px;
+      position: relative;
+      bottom: 5px;
+    }
+    .lang {
+      margin-right: 20px;
+    }
+    .point::after {
+      content: "";
+      background-image: url(../img/team-mem/point.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 6px;
+      height: 6px;
+      padding-right: 13px;
+    }
+    .lang::after, .address::after, .tel::after {
+      content: "";
+      position: absolute;
+    }
+    .lang::after {
+      right: 415px;
+      top: 8px;
+    }
+    .address::after {
+      right: 190px;
+      top: 8px;
+    }
+    .tel::after {
+      right: 25px;
+      top: 8px;
+    }
+    .ua, .ru, .en, .tel {
+      color: #B3B3BA;
+    }
+    .address {
+      display: block;
+      margin-right: 20px;
+      font-size: 16px;
+      font-style: normal;
+      color: #B3B3BA;
+    }
+    .tel {
+      position: static;
+      margin-right: 26px;
+    }
+    .links {
+      font-size: 18px;
+      margin-right: 15px;
+      color: #24A3FF;
+    }
+    .links:last-child {
+      margin-right: 0;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: nowrap;
+      position: absolute;
+      top: 94px;
+      right: 0;
+      order: 2;
+    }
+    .menu-active {
+      text-decoration: underline;
+      color: #F0145A;
+    }
+    .links:hover {
+      color: #F0145A;
+    }
+    .active {
+      background: #F0145A;
+      color: #fff;
+    }
+    .member-content {
+      width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 80px;
+    }
+    .name {
+      font-size: 42px;
+    }
+    .member-contacts {
+      flex-wrap: nowrap;
+      position: relative;
+      left: 80px;
+    }
+    .position {
+      right: 0;
+      margin-right: 26px;
+    }
+    .position::after {
+      display: flex;
+      position: absolute;
+      bottom: 5px;
+      left: 140px;
+    }
+    .point-member::after {
+      position: absolute;
+    }
+    .contacts {
+      margin-top: 0;
+      flex-direction: row;
+    }
+    .information {
+      left: 361px;
+    }
+    .point::after {
+      display: inline-block;
+    }
+    .member-mail, .account-link {
+      margin-top: 0;
+    }
+    .member-mail {
+      margin-right: 26px;
+    }
+    .member-mail::after {
+      display: flex;
+      position: absolute;
+      bottom: 5px;
+      right: 140px;
+    }
+  }
+  
+  @font-face {
+    font-family: "TT-Norms";
+    src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+  }
+  
+  @font-face {
+    font-family: "TT-Norms-Bold";
+    src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+  }
+  
